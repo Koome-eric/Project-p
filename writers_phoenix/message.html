@@ -3,8 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Phoenix Writers</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="css/transaction.css">
+    <link rel="stylesheet" href="css/message.css">
      <!-- font awesome icons --> 
      <link rel="stylesheet" href="css/font-awesome.css"> 
      <!-- bootstrap css --> 
@@ -22,11 +21,11 @@
           <li><a href="progress.html"><i class="fas fa-user"></i>Orders in Progress</a></li>
           <li><a href="delivered.html"><i class="fas fa-globe-asia"></i>Deliverd Orders</a></li>
           <li><a href="revision.html"><i class="fas fa-envelope"></i>Revision Orders</a></li>
-          <li><a href="finished.html" class="active"><i class="fas fa-clipboard"></i>Finished Orders</a></li>
+          <li><a href="finished.html"><i class="fas fa-clipboard"></i>Finished Orders</a></li>
           <li><a href="disputed.html"><i class="fas fa-envelope"></i>Dispute Orders</a></li>
 
           <div class="icons">
-            <a href="message.html"><i class="fas fa-envelope"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
             <a href="transaction.html"><i class="fas fa-stream"></i></a>
             <a href="#"><i class="fas fa-user"></i></a>
             <a href="faq.html"><i class="fas fa-question"></i></a>
@@ -39,7 +38,7 @@
           <label for="">
             <span class="fas fa-bars"></span>
           </label>
-          Finished Orders
+          Message
         </h2>
 
         <div class="links">
@@ -52,61 +51,38 @@
           <img src="/img/bio.JPG" width="30px" height="30px" alt="">
           <div>
             <h4>Hilda Mwangi</h4>
-          <small>Advance Writer</small>
+          <small>Writer</small>
         </div>
         </div>
       </div>
 
-      <main> 
-            <div class="container">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Order ID</th>
-                            <th>Subject</th>
-                            <th>Topic</th>
-                            <th>Pages/Words</th>
-                            <th>Budget(KES)</th>
-                            <th>Duration</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-   
-                             <tr>
-                           
-                            <td>1</td>
-                           
-                            <td>Engineering</td>
-                           
-                            <td>Mechanics</td>
-                           
-                            <td>1368</td>
-                           
-                            <td>$40</td>
-                           
-                            <td>5hrs</td>
-                           
-                            </tr>
-                           
-                            <tr>
-                           
-                            <td>2</td>
-                           
-                            <td>History</td>
-                           
-                            <td>Duppont</td>
-                           
-                            <td>1368</td>
-                           
-                            <td>$60</td>
-                           
-                            <td>24hrs</td>
-                           
-                            </tr>
-                           
-                    </tbody>
-                </table>
+      <main>
+        <div class="wrapper">
+            <div class="title">Hilda Mwangi</div>
+            <div class="box">
+                <div class="item">
+                    <div class="icon">
+                        <i class="fa fa-user"></i>
+                    </div>
+                    <div class="msg">
+                        <p>Hello Hilda, How are you?</p>
+                    </div>
+                </div>
+                <br clear="both">
+                <div class="item right">
+                    <div class="msg">
+                        <p>I'm doing fine</p>
+                    </div>
+                </div>
             </div>
+            
+            <div class="typing-area">
+                <div class="input-field">
+                    <input type="text" placeholder="Type your message" required>
+                    <button>Send</button>
+                </div>
+            </div>
+        </div>
       </main>
     </div>
 
