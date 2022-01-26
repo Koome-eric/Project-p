@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Animated Sidebar Menu | CodingLab</title>
+    <link rel="stylesheet" href="css/style.css">
+     <!-- font awesome icons --> 
+     <link rel="stylesheet" href="css/font-awesome.css"> 
+     <!-- bootstrap css --> 
+     <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+      <nav id="sidebar">
+        <div class="title">Phoenix Writers</div>
+        <ul class="list-items">
+          <li><a href="#" class="active"><i class="fas fa-home"></i>Overview</a></li>
+          <li><a href="#"><i class="fas fa-address-book"></i>Available Orders</a></li>
+          <li><a href="#"><i class="fas fa-cog"></i>Bids</a></li>
+          <li><a href="#"><i class="fas fa-stream"></i>Unconfirmed Orders</a></li>
+          <li><a href="#"><i class="fas fa-user"></i>Orders in Progress</a></li>
+          <li><a href="#"><i class="fas fa-globe-asia"></i>Deliverd Orders</a></li>
+          <li><a href="#"><i class="fas fa-envelope"></i>Revision Orders</a></li>
+          <li><a href="#"><i class="fas fa-clipboard"></i>Finished Orders</a></li>
+          <li><a href="#"><i class="fas fa-envelope"></i>Dispute Orders</a></li>
+
+          <div class="icons">
+            <a href="#"><i class="fas fa-envelope"></i></a>
+            <a href="transaction.html"><i class="fas fa-stream"></i></a>
+            <a href="#"><i class="fas fa-user"></i></a>
+            <a href="faq.html"><i class="fas fa-question"></i></a>
+          </div>
+        </ul>
+      </nav>
+    <div class="main-content">
+      <div class="header">
+        <h2>
+          <label for="">
+            <span class="fas fa-bars"></span>
+          </label>
+          Overview
+        </h2>
+
+        <div class="links">
+          <li><a href="#"><i class="fas fa-newspaper"></i></a></li>
+          <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+          <li><a href="#"><i class="fas fa-bell"></i></a></li>
+        </div>
+
+        <div class="user-wrapper">
+          <img src="/img/bio.JPG" width="30px" height="30px" alt="">
+          <div>
+            <h4>Hilda Mwangi</h4>
+          <small>Writer</small>
+        </div>
+        </div>
+      </div>
+      <main>
+        <div class="cards">
+            <div class="card-single">
+              <div>
+                <h1>$20</h1>
+                <span>Outstanding Payment</span>
+              </div>
+              <div>
+                <span class="fas fa-wallet"></span>
+              </div>
+            </div>
+            <div class="card-single">
+              <div>
+                <h1>$60</h1>
+                <span>Last Pay</span>
+              </div>
+              <div>
+                <span class="fas fa-wallet"></span>
+              </div>
+            </div>
+            <div class="card-single">
+              <div>
+                <h1>$900</h1>
+                <span>Total Earned</span>
+              </div>
+              <div>
+                <span class="fas fa-wallet"></span>
+              </div>
+            </div>
+        </div>
+        <div class="charts">
+          <div class="chart">
+            <h2>Earnings (past 12 months)</h2>
+            <canvas id="linechart"></canvas>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js"></script>
+    <script src="/js/chart1.js"></script>
+  </body>
+</html>
