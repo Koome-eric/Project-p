@@ -215,7 +215,7 @@ span
 .form-box
 {
     width:380px;
-	height: 500px;
+	height: 400px;
 	position:relative;
 	margin:2% auto;
 	background:rgba(0,0,0,0.3);
@@ -232,27 +232,15 @@ span
 	box-shadow: 0 0 20px 9px rgb(1, 41, 26);
 	border-radius: 30px;
 }
-.toggle-btn-1
-{
-	padding:10px 30px;
-	cursor:pointer;
-	background:transparent;
-	border: 0;
-	outline: none;
-	position: relative;
-    color: rgb(189, 184, 184);
+.button-box h1{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: var(--main-color);
+    margin-left: 60px;
+    padding: 5px 10px;
 }
-.toggle-btn-2
-{
-    margin-left: 25px;
-	cursor:pointer;
-	background:transparent;
-	border:0;
-	outline: none;
-	position: relative;
-    color: rgb(189, 184, 184);
 
-}
 #btn
 {
 	top: 0;

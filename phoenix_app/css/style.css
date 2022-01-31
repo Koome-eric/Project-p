@@ -210,13 +210,14 @@ ul{
 }
 .navbar .nav-item{
     margin-left: 40px;
+    padding: 5px 5px;
 }
 .navbar .nav-item .nav-link{
     color: #fff;
     font-size: 16px;
     text-transform: capitalize;
     font-weight: 400;
-    padding: 5px 0;
+    padding: 10px 8px;
 }
 .navbar .nav-item .nav-link::before{
     content: '';
@@ -230,9 +231,41 @@ ul{
     transform: scale(0);
     
 }
-.navbar .nav-item .nav-link.active::before,
-.navbar .nav-item .nav-link:hover:before{
+.navbar .nav-item .nav-link.active,
+.navbar .nav-item .nav-link:hover{
     transform: scale(1)   
+}
+.active, .nav-item:hover{
+    background: #09d69c;
+    border-radius: 3px;
+}
+.sub-menu{
+    display: none;
+}
+.nav-item:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background: var(--main-color);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.nav-item:hover .sub-menu ul{
+    display: block;
+    margin: 10px;
+}
+.nav-item:hover .sub-menu ul li{
+    width: 100px;
+    padding: 5px;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.nav-item:hover .sub-menu ul li:last-child{
+    border-bottom: none;
+}
+.nav-item:hover .sub-menu ul li a:hover{
+    color: #15ff00;
 }
 
 /* Img Slide */
