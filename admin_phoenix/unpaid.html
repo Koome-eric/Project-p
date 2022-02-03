@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Phoenix Writers</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/transaction.css">
+     <!-- font awesome icons --> 
+     <link rel="stylesheet" href="css/font-awesome.css"> 
+     <!-- bootstrap css --> 
+     <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+      <nav id="sidebar">
+        <div class="title">Phoenix Writers</div>
+        <ul class="list-items">
+          <li><a href="index.html"><i class="fas fa-home"></i>Overview</a></li>
+          <li><h2 onclick="myFunction()" class="dropmenu"><i class="fas fa-home"></i>Orders</h2>
+            <div id="myDropmenu" class="sub-menu">
+            <ul>
+            <li><a class="active" href="bids.html"><i class="fas fa-cog"></i>All</a></li>
+            <li><a href="new.html"><i class="fas fa-stream"></i>New</a></li>
+            <li><a href="request.html"><i class="fas fa-user"></i>Request/Bid</a></li>
+            <li><a href="take.html"><i class="fas fa-globe-asia"></i>Take</a></li>
+            <li><a href="public.html"><i class="fas fa-envelope"></i>Public</a></li>
+            <li><a href="progress.html"><i class="fas fa-clipboard"></i>In Progress</a></li>
+            <li><a href="submitted.html"><i class="fas fa-envelope"></i>Submitted</a></li>
+            <li><a href="revision.html"><i class="fas fa-cog"></i>In Revision</a></li>
+              <li><a href="completed.html"><i class="fas fa-stream"></i>Completed</a></li>
+              <li><a href="disputed.html"><i class="fas fa-user"></i>Disputed</a></li>
+              <li><a href="unpaid.html"><i class="fas fa-globe-asia"></i>Unpaid(Completed)</a></li>
+              <li><a href="paid.html"><i class="fas fa-envelope"></i>Paid</a></li>
+              <li><a href="canceled.html"><i class="fas fa-envelope"></i>Canceled</a></li>
+          </ul>
+          </div>
+          </li>
+          <li><h2 onclick="myFunction()" class="dropmenu"><i class="fas fa-address-book"></i>Writers</h2>
+            <div id="myDropmenu" class="sub-menu">
+              <ul>
+                <li><a href="private.html"><i class="fas fa-cog"></i>Private</a></li>
+                <li><a href="publicwr.html"><i class="fas fa-stream"></i>Public</a></li>
+                <li><a href="suspended.html"><i class="fas fa-user"></i>Suspended</a></li>
+                <li><a href="unapproved.html"><i class="fas fa-globe-asia"></i>Unapproved</a></li>
+                <li><a href="invite.html"><i class="fas fa-envelope"></i>Invite Writer</a></li>
+
+            </ul>
+            </div>
+            </li>
+            <li><a href="message.html"><i class="fas fa-envelope"></i>Chats</a></li>
+            <li><h2 onclick="myFunction()" class="dropmenu"><i class="fas fa-home"></i>Transaction History</h2>
+              <div id="myDropdown" class="sub-menu">
+              <ul>
+              <li><a href="wallet.html"><i class="fas fa-globe-asia"></i>Wallet Statement</a></li>
+              <li><a href="sms.html"><i class="fas fa-envelope"></i>Sms</a></li>
+          
+            </ul>
+          </div>
+          </li>
+          <div class="buttons">
+            <a href="delivered.html" class="btn btn-2"></i>Invite Writer</a>
+            <a href="delivered.html" class="btn btn-2"></i>Top Up</a>
+          </div>
+        </ul>
+      </nav>
+    <div class="main-content">
+      <div class="header">
+        <h2>
+          <label for="">
+            <span class="fas fa-bars"></span>
+          </label>
+          Unpaid
+        </h2>
+
+        <div class="links">
+          <li><a href="#"><i class="fas fa-newspaper"></i></a></li>
+          <li><a href="message.html"><i class="fas fa-envelope"></i></a></li>
+          <li><a href="#"><i class="fas fa-bell"></i></a></li>
+        </div>
+
+        <div class="user-wrapper">
+          <img src="/img/bio.JPG" width="30px" height="30px" alt="">
+          <div>
+          <div>
+            <h4 onclick="myFunction()" class="dropbtn">Hilda Mwangi</h4>
+                <div id="myDropbtn" class="dropdown-content">
+                 <a href="#"><i class="fas fa-user"></i>Profile</a>
+                 <a href="#"><i class="fas fa-stream"></i>Top up Wallet</a>
+                <a href="#"><i class="fas fa-globe-asia"></i>Log Out</a>
+              </div>
+            </div>
+          <div><small>Admin</small></div>
+        </div>
+        </div>
+      </div>
+
+      <main> 
+            <div class="container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Order ID</th>
+                            <th>Subject</th>
+                            <th>Topic</th>
+                            <th>Pages/Words</th>
+                            <th>Budget(KES)</th>
+                            <th>Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+   
+                             <tr>
+                           
+                            <td>1</td>
+                           
+                            <td>Engineering</td>
+                           
+                            <td>Mechanics</td>
+                           
+                            <td>1368</td>
+                           
+                            <td>$40</td>
+                           
+                            <td>5hrs</td>
+                           
+                            </tr>
+                           
+                            <tr>
+                           
+                            <td>2</td>
+                           
+                            <td>History</td>
+                           
+                            <td>Duppont</td>
+                           
+                            <td>1368</td>
+                           
+                            <td>$60</td>
+                           
+                            <td>24hrs</td>
+                           
+                            </tr>
+                           
+                    </tbody>
+                </table>
+            </div>
+      </main>
+    </div>
+    <script src="/js/dropdown.js"></script>
+  </body>
+</html>
