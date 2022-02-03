@@ -25,6 +25,26 @@
   --black-alpha-100: rgba(0,0,0,0.05);
 }
 
+.btn-2{
+  background-color: var(--main-color);
+  padding: 10px 8px;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 16px;
+  text-transform: capitalize;
+  transition: all 0.5s ease;
+  box-shadow: var(--shadow-black-100);
+  font-weight: 500;
+}
+.btn-2:focus{
+  box-shadow: var(--shadow-black-100);
+}
+.btn-2:hover{
+  color: var(--main-color);
+  background-color: #fff;
+}
+
 .wrapper{
   height: 100%;
   width: 300px;
@@ -116,7 +136,7 @@
 #sidebar .list-items li a{
   color: #f2f2f2;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 500;
   height: 100%;
   width: 100%;
@@ -226,58 +246,46 @@
 .faq .section-title h2 span{
     color: #000;
 }
-.faq .accordion-item:not(:last-child){
-    margin-bottom: 20px;
+.faq .conditions{
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  margin-top: 30px;
+  height: auto;
 }
-.faq .accordion-header{
-    box-shadow: var(--shadow-black-100);
-    padding: 20px 50px 20px 30px;
-    transition: all 0.5s ease;
-    cursor: pointer;
-    position: relative;
+.conditions h2{
+  font-size: 20px;
+  margin-left: 300px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
-.faq .accordion-header::before{
-    content: "\f067";
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
-    position: absolute;
-    height: 30px;
-    width: 30px;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 16px;
-    text-align: center;
-    line-height: 30px;
-    color: var(--black-400);
-    transition: all 0.5s ease;
+.terms h1{
+  font-size: 19px;
+  font-weight: 600;
+  color: var(--main-color);
+  
+  margin-top: 20px;
 }
-.faq .accordion-header:not(.collapsed)::before{
-    content: "\f068";
-    color: #fff;
+.terms p{
+  font-size: 16px;
+  font-weight: 400;
 }
-.faq .accordion-header:not(.collapsed){
-    background-color: var(--main-color);
-    box-shadow: none;
+.terms p span{
+  font-weight: bold;
 }
-.faq .accordion-header h3{
-    font-size: 18px;
-    font-weight: 500;
-    color: var(--black-400);
-    margin: 0;
-    transition: all 0.5s ease;
+.terms a{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0;
+  color: var(--main-color);
 }
-.faq .accordion-header:not(.collapsed) h3{
-    color: #fff;
-}
-.faq .accordion-body{
-    padding: 20px 30px;
-    background-color: var(--black-100);
-}
-.faq .accordion-body p{
-    font-size: 16px;
-    font-weight: 300;
-    color: var(--black-400);
-    line-height: 26px;
-    margin: 0;
-}
+
+
+
+
+
+
+
