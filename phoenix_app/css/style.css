@@ -321,7 +321,7 @@ ul{
     line-height: 28px;
     margin: 0;
     color: #fff;
-    font-weight: 300;
+    font-weight: 600;
 }
 .img-slider .navigation{
     z-index: 2;
@@ -579,6 +579,7 @@ ul{
     box-shadow: var(--shadow-black-100);
     border-radius: 10px;
     text-align: center;
+    height: 450px;
 }
 .testimonials-item .img-box{
     height: 100px;
